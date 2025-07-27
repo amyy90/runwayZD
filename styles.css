@@ -1,0 +1,105 @@
+    body {
+      margin: 0;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: sans-serif;
+      color: white;
+      /* display: inline-block; */
+    }
+
+    /* ---------- */
+    /* AUDIO */
+
+    audio{
+        width: 16rem;
+        height: 32px;
+        border-radius: 0px;
+        color: black;
+    }
+
+    media-play-button {
+    --media-icon-color: lightpink;
+    --media-control-background: rgb(27 54 93 / 0.85);
+    --media-control-hover-background: rgb(128 0 0 / 0.85);
+}
+
+    .audio-1{
+        position: absolute;
+        margin-left: 27%;
+        margin-top: 5%;
+    }
+
+    .audio-2{
+        position: absolute;
+        margin-left: 70%;
+        margin-top: 5%;
+    }
+
+    .audio-3{
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 20%;
+    }
+
+    .audio-4{
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 20%;
+    }
+
+    .audio-5{
+        position: absolute;
+        margin-left: 80%;
+        margin-top: 20%;
+    }
+
+    .audio-6{
+        position: absolute;
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+
+    /* ---------- */
+    /* VIDEO */
+
+    video {
+      margin: 10px 0;
+      width: 14rem;
+      box-shadow: 1px 1px 24px 6px rgba(255,255,255,0.75);
+    }
+
+    .video-1{
+        position: absolute;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    .video-2{
+        position: absolute;
+        margin-left: 80%;
+        margin-top: 10%;
+    }
+
+    .video-3{
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 5%;
+    }
+
+    .video-4{
+        position: absolute;
+        margin-left: 30%;
+        margin-top: 15%;
+    }
+
+
+
+
+    .close-btn {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+    }
